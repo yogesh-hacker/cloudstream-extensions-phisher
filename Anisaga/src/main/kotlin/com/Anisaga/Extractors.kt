@@ -37,7 +37,7 @@ open class Chillx : ExtractorApi() {
                 throw Exception("Encoded string not found")
             }
             // Decrypt the encoded string
-            val password = "~%aRg@&H3&QEK1QV"
+            val password = "l%sn3@bJvcg0IuJV"
             val decryptedData = decryptXOR(encodedString, password)
             Log.d("Phisher",decryptedData)
             // Extract the m3u8 URL from decrypted data
