@@ -32,7 +32,7 @@ import org.jsoup.select.Elements
 
 class HDhub4uProvider : MainAPI() {
     override var mainUrl: String = runBlocking {
-        HDhub4uPlugin.getDomains()?.HDHUB4u ?: "https://hdhub4u.menu"
+        HDhub4uPlugin.getDomains()?.HDHUB4u ?: "https://hdhub4u.pictures"
     }
     override var name = "HDHub4U"
     override var lang = "hi"
